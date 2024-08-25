@@ -4,7 +4,7 @@ export function getRandomArbitrary(min, max) {
 export function addNewPointPosition(width,height){
     return {
         left:getRandomArbitrary(0,width-40),
-        top:getRandomArbitrary(0,height-60)
+        top:getRandomArbitrary(0,height-40)
     }
 }
 /**
