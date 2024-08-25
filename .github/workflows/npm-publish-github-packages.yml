@@ -55,7 +55,7 @@ jobs:
             npm i
             fi
             npm run build
-      - name: Deploy to EC2 instance 
+      - name: Deploy to EC2 instance  
         uses: appleboy/ssh-action@master
         with:
           host: ${{secrets.EC2_HOST}}
